@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+.hair, .clase-makeup, .clase-agenda, .clase-welcome, .clase-bienvenido, .clase-nuestros, .makeup, .clase-titulo, .clientes  {
+    color: #cf7dda;
+    font-family: "Great Vibes", cursive;
+}
+  
+
+.style, .clase-salon,  .clase-sale, .clase-subtitle, .clase-dos, .clase-servicio, .precios,  .clase-subtitulo, .clase-test { 
+    font-family: "Archivo Black", sans-serif;
+}
+
+.clase-salon-1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 4rem;
+}
+
+
+.azul  {
+    color:#6E7380;
+    font-family: "Antic Slab", serif;
+    font-weight: 800;
+}
+
+.azul-oscuro {
+    color: #43495A;
+    font-family: "Antic Slab", serif;
+    font-weight: 800;
+}
+
+p {
+    font-family: "Antic Slab", serif;
+}
+
+.gris {
+    color: gray;
+    font-family: "Antic Slab", serif;
+}
+
+/*reset*/
+
+* {
+    box-sizing: border-box;
+    margin:0; 
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/*CARRUSEL*/
+
+#carouselExampleSlidesOnly {
+    position: relative;
+}
+
+#showcase {
+  padding-inline: 5%;
+  position: absolute;
+  top: 20%;
+  color: white;
+  text-align: center;
+}
+
+.hair {
+    margin: 0;
+    font-size: 600%;
+}
+
+.style {
+    font-size: 800%;
+}
+
+.leermas {
+    color: white;
+    background-color: #cf7dda;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* CARDS*/
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem;
+}
+
+.card {
+    border: none !important;
+    text-align: center;
+}
+
+.card-img {
+    height: 70%;
+}
+
+.card-bodys {
+    color: white;
+    padding-top: 30%;
+    position: absolute;
+}
+
+.clase-makeup {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.clase-salon {
+    color: #222A3E;
+    font-size: 4rem;
+}
+
+.clase {
+    margin-top: 0;
+}
+
+.btn.btn-primary {
+    padding: 15px;
+    background-color: #cf7dda;
+    border: none;
+    border-radius: 0px;
+}
+
+/*BANNER*/
+
+.clase-agenda {
+    font-size: 5rem;
+}
+
+.clase-sale {
+    font-size: 8rem;
+}
+ 
+.clase-container {
+    padding-top: 10%;
+}
+
+/* BIENVENIDA*/ 
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+}
+
+.izquierda  {
+    flex: 2;
+    padding: 10px; 
+}
+
+.derecha {
+    flex: 2;
+    padding: 10px;
+}
+
+.clase-contenedor-dos {
+    padding-top: 2rem;
+    padding-left: 7rem;
+    text-align: center;
+}
+
+.clase-welcome {
+ margin: 0;
+ font-size: 4rem;
+}
+
+.clase-subtitle {
+    color: #222A3E;
+    margin: 0;
+    font-size: 5rem;
+}
+
+.clase p {
+    font-size: 300%;
+}
+
+/*segundo contenedor */
+
+.contenedor-uno {
+    background-color: #F6F7F7;
+    margin-top: 3rem;
+    display: flex;
+    padding: 20px;
+}
+
+.izquierda-uno {
+    text-align: center;
+    flex: 2;
+}
+
+.clase-bienvenido {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.clase-dos {
+    color: #222A3E;
+    font-size: 5rem;
+    margin: 0
+}
+
+.derecha-uno {
+    flex: 3;
+    padding-left: 3rem;
+    padding-top: 6rem;
+}
+
+
+.servicios {
+    background-color:  #F6F7F7;
+    display: flex;
+}
+
+.servicios-text {
+    margin: 2rem;
+}
+
+.servicios-text p {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+
+.circle-icon {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100px;  /* Ancho del círculo */
+    height: 100px; /* Altura del círculo */
+    background-color:  #cf7dda; /* Color de fondo rosa */
+    color: white;  /* Color del icono */
+    border-radius: 50%; /* Hacerlo circular */
+    font-size: 24px; /* Tamaño del icono */
+    font-weight: bold;
+    margin: 0 10px; /* Espacio alrededor del círculo */
+}
+
+
+.uno {
+    display: flex;
+    justify-content: center;
+}
+
+.dos {
+    display:flex;
+    justify-content: center;
+}
+
+.services {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.clase-nuestros {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.clase-servicio {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.servicios-uno {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.makeup {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.precios {
+    font-size: 2rem;
+}
+
+
+.icono-texto {
+    display: flex;
+}
+
+.circle-icono {
+padding-right: 9px;
+padding-top: 4px;
+color: #aaa8a8;
+}
+
+
+
+.clase-titulo {   
+    padding-top: 12rem;
+    font-size: 4rem;
+}
+
+.clase-subtitulo {
+    font-size: 7rem;
+}
+
+.grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-testimonio {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.testimonio {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+}
+
+.testimonio img {
+    border-radius: 50%;
+}
+
+.contenido {
+    margin-top: 10px;
+}
+
+.seccion {
+    background-color:  #cf7dda;
+}
+
+.contacto {
+    color: white;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.direccion {
+    text-align: center;
+}
+
+.contact-icono {
+    display: flex;
+    justify-content: center;
+}
+
+.telefono {
+
+    text-align: center;
+}
+
+.horario {
+    text-align: center;
+}
+
+.mapa {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.footer {
+    height: 4vh;
+    background-color: #cf7dda;
+}
+    
+/*media queris*/
+
+/*media queris para desktop*/
+@media (min-width: 770px) and (max-width: 1220px) {
+
+    .showcase {
+        padding-left: 6rem ;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .clase-container {
+        padding-top: 2rem;
+    }
+
+    .clase-agenda{
+        font-size: 3rem;
+    }
+
+    .clase-sale {
+        font-size: 4rem;
+    }
+
+    .btn.btn-primary {
+        padding: 10px;
+    }
+
+    .contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .izquierda {
+        margin-left: 3rem;
+    }
+
+
+
+    .uno {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-uno {
+    display: flex;
+    flex-direction: column;
+    }
+
+
+    .servicios {
+        padding-inline: 5rem;
+        text-align: -webkit-center;
+        justify-content: center;
+        display: list-item;
+    }
+
+    .servicios-uno {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clase-titulo {
+        padding-top: 4rem;
+    }
+
+    .clase-subtitulo {
+        font-size: 5rem;
+    }
+
+
+}
+
+/* Media query para tablet*/
+@media (min-width: 481px) and (max-width: 769px) { 
+
+    .hair {
+        font-size: 2rem;
+    }
+
+    .style {
+        font-size: 3rem;
+    }
+
+    .leermas{
+       padding: 10px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .clase-container {
+        padding-top: 0rem;
+    }
+
+    .clase-agenda {
+        font-size: 2rem;
+    }
+
+    .clase-sale {
+        font-size: 2rem;
+    }
+
+    .btn.btn-primary { 
+        padding: 9px;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .izquierda {
+        display: none;
+    }
+
+
+    .clase-welcome {
+        font-size: 3rem;
+    }
+
+    .clase-subtitle {
+        font-size: 4rem;
+    }
+
+    .galeria {
+        display: none;
+    }
+
+    .contenedor-uno {
+        display: flex;
+        flex-direction: column;
+        }
+
+    .servicios {
+        padding-inline: 5rem;
+        text-align: -webkit-center;
+        justify-content: center;
+        display: list-item;
+    }
+
+    .services {
+      padding-top: 2rem;
+    }
+
+    .servicios-uno {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio-uno {
+        padding-bottom: 2rem;
+    }
+
+    .servicio-dos {
+        padding-bottom: 2rem;
+    }
+
+    .clase-titulo {
+
+        padding-top: 1rem;
+    }
+
+    .clase-subtitulo {
+        font-size: 2rem;
+    }
+
+    .btn.btn-primary {
+
+        padding: 5px;
+    }
+
+    }
+
+    /* Media query para mobile*/
+@media (max-width: 480px) and (min-width: 320px) {
+
+}
+
+
+
